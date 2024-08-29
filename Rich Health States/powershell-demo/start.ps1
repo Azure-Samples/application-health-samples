@@ -9,7 +9,7 @@ else{
 
 $applicationPath = "$home\Application\application.ps1"
 
-#TODO: Add SAS token for "Application" script below
+# Add URI for "Application" script below
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Azure-Samples/application-health-samples/main/Rich%20Health%20States/powershell-demo/application.ps1" -OutFile $applicationPath
 Write-Host "Downloaded application to $applicationPath"
 
